@@ -1,0 +1,40 @@
+.nav-style{
+  border-radius: 0px;
+  border: none;
+  background-color: #FF6384;
+}
+#nav-title{
+  color: #fff;
+}
+#nav-link{
+  color: #fff
+}
+section{
+  margin-bottom: 50px;
+}
+#title{
+  margin-bottom: 75px;
+}
+.icon{
+  font-size: 112px;
+}
+h3{
+  margin-top: 0px;
+}
+.gray{
+  color: silver;
+}
+footer{
+  background-color: #333;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-title{
+  color: silver;
+}
+.footer-text{
+  color: #999;
+}
+#author-photo{
+  height: 100px;
+}
