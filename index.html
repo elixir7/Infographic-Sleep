@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Infographic</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-default nav-style">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand" id="nav-title">Sömnbrist</a>
+        </div>
+        <div class="navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="https://github.com/elixir7" id="nav-link">Created by Isak Åslund</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="text-center">
+          <h1 id="title">Börja klockan 9</h1>
+        </div>
+
+        <section class="row">
+          <div class="col-md-4">
+            <canvas id="doughnutChart"></canvas>
+            <div class="text-center">
+              <p class="gray"><em>* - Värdet är i procent</em></p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h3>Sömnbrist</h3>
+            <p>1 av 3 ungdomar sover för lite skriver Caroline Olsson på <a href="http://www.aftonbladet.se/nyheter/article10210457.ab">aftonbladet.se</a> Enligt <a href="http://www.1177.se/Stockholm/Tema/Barn-och-foraldrar/Vaxa-och-utvecklas/Barn-och-unga-13-18-ar/Barnets-utveckling-13-18-ar/">vårdguiden.se</a> behöver de flesta tonåringar sova omkring nio timmar per dygn, men många sover mindre. Förändringarna i kroppen, som exempelvis ändrad hormonbalans, gör att många tonåringar kan ha svårt att somna på kvällen och att vakna tidigt på morgonen. Tonåringar som av en eller annan orsak vänjer sig vid mycket sena vanor kan få störd dygnsrytm med försenad sömnfas. De sover då kanske mellan fem på morgonen och tolv på dagen, vilket gör att skolgång och inlärning påverkas.</p>
+          </div>
+        </section>
+
+        <section class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <i class="fa fa-graduation-cap icon"></i>
+              </div>
+              <div class="col-md-8">
+                <h3>Betyg</h3>
+                <p>Det finns en relation mellan längden på sömn och höjden på betyg. Det visar flertalet studier säger <a href="http://unglivsstil.se/ungdomar/somn/5454-2/">unglivsstil.se</a>. De som får tillräckligt mycket sömn har bättre chanser att få högre betyg och de behöver inte slita lika hårt som sina trötta klasskamrater.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <i class="fa fa-question icon"></i>
+              </div>
+              <div class="col-md-8">
+                <h3>Syfte & Frågeställning</h3>
+                <p>Syftet med att försöka lösa problemet är att få ungdomar att känna mindre stress, må bättre och vara piggare, något som är svårt att uppnå när samhället inte hänger med utvecklingen och gamla traditioner går framför forskning och fakta. Frågeställning är "Hur löser man sömnbristen bland ungdomar?"</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-2 text-center">
+                <i class="fa fa-clock-o icon"></i>
+              </div>
+              <div class="col-md-10">
+                <h3>Lösningen</h3>
+                <p>Genom att börja skolan senare, t.ex klockan 9 eller 10 kan man hjälpa barn och ungdomar att lättare koncentrera sig och må bättre. Detta menar sömnforskare vid <a href="http://www.aftonbladet.se/nyheter/article10210457.ab">karolinska institutet</a>. Skolverket skulle behöva ändra om i sina lagar om skolgång så att skolor ej får starta innan klockan 9. Genom att ungdomarna är mer utvilade kan de prestera bättre och lättare och möta de mål som sätts av skolverket, lärare, föräldrar och släkt, vilket ofta är en stor press för många ungdomar. Dessutom har det positiva hälsoaspekter eftersom sömnen hjälper oss att reparera våra kroppar. </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="footer-title">Infographic - Sömnproblem</h4>
+            <p class="footer-text">Den här "infographiken" gjordes för att visualisera ett samhällsproblem som finns i skolan och på gymnasiet. Ungdomar sover för lite och tvingas upp tidigt på morgonen vilket gör att deras prestationsförmåga sänks och de kan inte koncentrera sig. Genom att börja senare på dagen mår ungodmarna både bättre och kan prestera bättre.</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="footer-title">Made by <em>Isak Åslund 3C</em></h4>
+            <img src="src/jag.jpg" alt="Picutre of Author" id="author-photo">
+          </div>
+          <div class="col-md-4">
+            <h4 class="footer-title">Contact</h4>
+            <p class="footer-text"><i class="fa fa-phone"></i> +46 706 08 58 07</p>
+            <p class="footer-text"><i class="fa fa-envelope"></i> isak.aslund@itggot.se</p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="build/bundle.js"></script>
+  </body>
+</html>
